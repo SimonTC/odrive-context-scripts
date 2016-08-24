@@ -1,0 +1,13 @@
+INFO:root:Starting script
+INFO:root:Python version: 3.5.1 |Anaconda custom (64-bit)| (default, Dec  7 2015, 11:16:01) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+INFO:root:Paths: ['/media/simon/Data/odrive/Dropbox/Budgetter/Budget 2014.xlsx', '/media/simon/Data/odrive/Dropbox/Budgetter/Budget 2015.xlsx.cloud', '/media/simon/Data/odrive/Dropbox/Budgetter/Gammelt.cloudf', '/media/simon/Data/odrive/Dropbox/Budgetter/Husholdning, Tampere 2016.ods.cloud', '/media/simon/Data/odrive/Dropbox/Budgetter/Skat, Finland.xlsx']
+INFO:root:Looking at /media/simon/Data/odrive/Dropbox/Budgetter/Budget 2014.xlsx
+INFO:root:Looking at /media/simon/Data/odrive/Dropbox/Budgetter/Budget 2015.xlsx.cloud
+INFO:root:Calling sync on /media/simon/Data/odrive/Dropbox/Budgetter/Budget 2015.xlsx.cloud
+INFO:root:Looking at /media/simon/Data/odrive/Dropbox/Budgetter/Gammelt.cloudf
+INFO:root:Calling sync on /media/simon/Data/odrive/Dropbox/Budgetter/Gammelt.cloudf
+INFO:root:Looking at /media/simon/Data/odrive/Dropbox/Budgetter/Husholdning, Tampere 2016.ods.cloud
+INFO:root:Calling sync on /media/simon/Data/odrive/Dropbox/Budgetter/Husholdning, Tampere 2016.ods.cloud
+INFO:root:Looking at /media/simon/Data/odrive/Dropbox/Budgetter/Skat, Finland.xlsx
+INFO:root:Done with syncing all files

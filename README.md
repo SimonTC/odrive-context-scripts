@@ -14,19 +14,25 @@ Run the following command in your terminal to download and install the odrive Sy
 
 ### 2. Create alias for the agent
 Add the following line to your `~/.bashrc` file:
+
 `alias odrive='python "$HOME/.odrive-agent/bin/odrive.py"'`
+
+Reload the .bashrc file:
+
+`source ~/.bashrc`
 
 ### 3. Create an odrive account 
 Got to https://www.odrive.com/ and register
 ### 4. Create an auth key for the odrive Agent
 Go to https://www.odrive.com/account/authcodes and click on "Create Auth Key" to create an auth key.
-### 5. Authenticate the agent
-Execute the following in your terminal where `[auth key]` is the key you got in step 4:
-`odrive authenticate [auth key]`
 
-### 6. Start server
+### 5. Start server
 To run the odrive Sync Agent server in the background, use the following command in your terminal:
 `nohup "$HOME/.odrive-agent/bin/odriveagent">/dev/null&`
+
+### 6. Authenticate the agent
+Execute the following in your terminal where `[auth key]` is the key you got in step 4:
+`odrive authenticate [auth key]`
 
 ### 7. Setup server to start at reboot
 Add the following line to you cron tab (crontab -e)

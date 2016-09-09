@@ -1,3 +1,3 @@
 # Sync all folders in the placeholders' directory trees.
 # No files are synced.
-gnome-terminal -e "python '/home/simon/projects/bash/odrive/odrive_scripts.py' sync_folders"
+gnome-terminal -e "python '$HOME/.odrive-agent/bin/odrive_scripts.py' sync_folders"

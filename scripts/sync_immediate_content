@@ -1,2 +1,2 @@
 # Sync placeholders and their immediate children
-gnome-terminal -e "python '/home/simon/projects/bash/odrive/odrive_scripts.py' sync_immediate_content"
+gnome-terminal -e "python '$HOME/.odrive-agent/bin/odrive_scripts.py' sync_immediate_content"

@@ -1,2 +1,2 @@
 # Sync the selected placeholders but not eventual child folders
-gnome-terminal -e "python '/home/simon/projects/bash/odrive/odrive_scripts.py' sync"
+gnome-terminal -e "python '$HOME/.odrive-agent/bin/odrive_scripts.py' sync"

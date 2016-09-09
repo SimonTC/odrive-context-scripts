@@ -7,7 +7,10 @@ import argparse
 import odrive
 
 logger = logging.getLogger()
-logging.basicConfig(filename='/home/simon/projects/bash/odrive/log', filemode='w', level=logging.DEBUG)
+cur_path = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.abspath(os.path.join(cur_path, os.pardir, 'log'))
+log_file = os.path.join(log_dir, 'scripts.log')
+logging.basicConfig(filename=log_file, filemode='w', level=logging.DEBUG)
 
 logger.info('Reading server ports')
 AGENT_PORT_REGISTRY_FILE_PATH = os.path.join(odrive.expand_user('~'), '.odrive-agent', '.oreg')

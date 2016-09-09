@@ -1,1 +1,3 @@
+# Unsync all the selected folders
+# Only works if you are a premium user!
 gnome-terminal -e "python '/home/simon/projects/bash/odrive/odrive_scripts.py' unsync"

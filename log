@@ -3,15 +3,7 @@ INFO:root:Finished reading server ports
 INFO:root:Starting operations
 INFO:root:Reading selected objects
 INFO:root:Reading arguments
-INFO:root:Command: sync_immediate_folders
-DEBUG:root:Syncing root
-DEBUG:root:Starting placeholder syncing with placeholder="/media/simon/Data/odrive/Amazon Cloud Drive.cloudf" and only_folders=True
-INFO:root:Syncing /media/simon/Data/odrive/Amazon Cloud Drive.cloudf
-DEBUG:root:Starting placeholder syncing with placeholder="/media/simon/Data/odrive/Amazon Cloud Drive/Documents.cloudf" and only_folders=True
-INFO:root:Syncing /media/simon/Data/odrive/Amazon Cloud Drive/Documents.cloudf
-DEBUG:root:Starting placeholder syncing with placeholder="/media/simon/Data/odrive/Amazon Cloud Drive/Pictures.cloudf" and only_folders=True
-INFO:root:Syncing /media/simon/Data/odrive/Amazon Cloud Drive/Pictures.cloudf
-DEBUG:root:Starting placeholder syncing with placeholder="/media/simon/Data/odrive/Amazon Cloud Drive/Videos.cloudf" and only_folders=True
-INFO:root:Syncing /media/simon/Data/odrive/Amazon Cloud Drive/Videos.cloudf
-DEBUG:root:Max depth reached. Returning
+INFO:root:Command: sync
+DEBUG:root:Starting placeholder syncing with placeholder="/home/simon/root.yml" and only_folders=False
+INFO:root:Syncing /home/simon/root.yml
 INFO:root:Done performing operations

@@ -2,7 +2,7 @@
 A collection of Python scripts to use with the Odrive CLI Agent.
 
 # Installing odrive and setting up the scripts.
-Original installation instructions can be found [here]. (https://forum.odrive.com/t/odrive-sync-agent-a-cli-scriptable-interface-for-odrives-progressive-sync-engine-for-linux-os-x-and-windows)
+Original installation instructions can be found [here] (https://forum.odrive.com/t/odrive-sync-agent-a-cli-scriptable-interface-for-odrives-progressive-sync-engine-for-linux-os-x-and-windows).
 If odrive already is installed and working you can jump directly to step 8. 
 ### 1. Install the odrive sync agent
 Run the following command in your terminal to download and install the odrive Sync Agent to `~/.odrive-agent`. This will download the odrive Agent service, the odrive Agent python client, and the odrive Agent binary client.

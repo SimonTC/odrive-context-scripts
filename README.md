@@ -28,14 +28,17 @@ Go to https://www.odrive.com/account/authcodes and click on "Create Auth Key" to
 
 ### 5. Start server
 To run the odrive Sync Agent server in the background, use the following command in your terminal:
+
 `nohup "$HOME/.odrive-agent/bin/odriveagent">/dev/null&`
 
 ### 6. Authenticate the agent
 Execute the following in your terminal where `[auth key]` is the key you got in step 4:
+
 `odrive authenticate [auth key]`
 
 ### 7. Setup server to start at reboot
 Add the following line to you cron tab (crontab -e)
+
 `@reboot ~/.odrive-agent/bin/odriveagent &`
 
 ### 8. Add scripts to context menu
@@ -43,7 +46,9 @@ Read more about Nautilus scripts [here] (https://help.ubuntu.com/community/Nauti
 1. copy odrive_scripts.py to the odrive installation folder (`~/.odrive-agent`)
 2. copy the odrive folder to `~/.local/share/nautilus/scripts/`
 3. make all the scripts executable by either right-clicking each script and select 'Properties → Permissions → Allow executing file as program' or use the following command in the terminal:
+
   `chmod +x <name-of-script>`
+  
 4. You might need to open the scripts folder before the scripts become active as part of the context menu
 
 # Logging

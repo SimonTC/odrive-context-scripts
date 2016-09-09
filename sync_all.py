@@ -1,6 +1,5 @@
-#!/home/simon/anaconda3/bin/python3.5
+#!/usr/bin/python
 import os
-import subprocess
 import logging
 import sys
 import odrive
@@ -9,9 +8,6 @@ AGENT_PORT_REGISTRY_FILE_PATH = os.path.join(odrive.expand_user('~'), '.odrive-a
 DESKTOP_PORT_REGISTRY_FILE_PATH = os.path.join(odrive.expand_user('~'), '.odrive', '.oreg')
 agentProtocolServerPort = odrive.get_protocol_server_port(AGENT_PORT_REGISTRY_FILE_PATH)
 desktopProtocolServerPort = odrive.get_protocol_server_port(DESKTOP_PORT_REGISTRY_FILE_PATH)
-
-
-
 
 logger = logging.getLogger()
 logging.basicConfig(filename='/home/simon/projects/bash/odrive/log', filemode='w', level=logging.INFO)

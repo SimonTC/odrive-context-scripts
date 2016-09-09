@@ -5,11 +5,14 @@ Source: https://forum.odrive.com/t/odrive-sync-agent-a-cli-scriptable-interface-
 Run the following command in your terminal to download and install the odrive Sync Agent to ~/.odrive-agent. This will download the odrive Agent service, the odrive Agent python client, and the odrive Agent binary client.
 od="$HOME/.odrive-agent/bin" && curl -L "http://dl.odrive.com/odrive-py" --create-dirs -o "$od/odrive.py" && curl -L "http://dl.odrive.com/odriveagent-lnx-64" | tar -xvzf- -C "$od/" && curl -L "http://dl.odrive.com/odrivecli-lnx-64" | tar -xvzf- -C "$od/"
 
-## Run server and start it at startup
+## Run server
 To run the odrive Sync Agent server in the background, use the following command in your terminal:
 nohup "$HOME/.odrive-agent/bin/odriveagent">/dev/null&
 
-To run the server at startup add the command in the startup applications app (http://www.howtogeek.com/189995/?PageSpeed=noscript)
+
+## Start server at reboot
+Add the following line to you cron tab (crontab -e)
+@reboot ~/.odrive-agent/bin/odriveagent &
 
 ## Make it easier to give commands
 Add the following line to your ~/.bashrc file:

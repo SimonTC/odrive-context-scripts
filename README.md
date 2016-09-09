@@ -41,6 +41,14 @@ Add the following line to you cron tab (crontab -e)
 
 `@reboot ~/.odrive-agent/bin/odriveagent &`
 
+### Create mount point
+Run the following command in your terminal where [local folder] is the folder you want as topfolder for the odrive folders.
+
+`odrive mount [local folder] /`
+
+NOTE: In this example we just make a mount point for the odrive main folder.
+It seems you have to have a premium account to create multiple mounts, so I am not sure how to do that.
+
 ### 8. Add scripts to context menu
 Read more about Nautilus scripts [here] (https://help.ubuntu.com/community/NautilusScriptsHowto)
 1. copy odrive_scripts.py to the odrive installation folder (`~/.odrive-agent`)

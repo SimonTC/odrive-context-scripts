@@ -51,6 +51,7 @@ It seems you have to have a premium account to create multiple mounts, so I am n
 
 ### 8. Add scripts to context menu
 Read more about Nautilus scripts [here] (https://help.ubuntu.com/community/NautilusScriptsHowto)
+
 1. copy odrive_scripts.py to the odrive installation folder (`~/.odrive-agent`)
 2. copy the odrive folder to `~/.local/share/nautilus/scripts/`
 3. make all the scripts executable by either right-clicking each script and select 'Properties → Permissions → Allow executing file as program' or use the following command in the terminal:

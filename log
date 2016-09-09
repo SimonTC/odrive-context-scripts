@@ -1,9 +1,0 @@
-INFO:root:Reading server ports
-INFO:root:Finished reading server ports
-INFO:root:Starting operations
-INFO:root:Reading selected objects
-INFO:root:Reading arguments
-INFO:root:Command: sync
-DEBUG:root:Starting placeholder syncing with placeholder="/home/simon/root.yml" and only_folders=False
-INFO:root:Syncing /home/simon/root.yml
-INFO:root:Done performing operations

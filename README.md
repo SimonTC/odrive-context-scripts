@@ -14,7 +14,7 @@ Run the following command in your terminal to download and install the odrive Sy
 
 ### 2. Create alias for the agent
 Add the following line to your `~/.bashrc` file:
-alias `odrive='python "$HOME/.odrive-agent/bin/odrive.py"'`
+`alias odrive='python "$HOME/.odrive-agent/bin/odrive.py"'`
 
 ### 3. Create an odrive account 
 Got to https://www.odrive.com/ and register
